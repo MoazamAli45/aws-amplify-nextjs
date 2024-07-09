@@ -16,7 +16,7 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Acme.</strong>
+            <strong>Welcome to Rezlink.</strong>
           </p>
           <Link
             href="/auth/login"
@@ -26,7 +26,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
-          <Image
+          {/* <Image
             src="/hero-desktop.png"
             width={1000}
             height={760}
@@ -39,7 +39,7 @@ export default function Page() {
             height={620}
             className="block md:hidden"
             alt="Screenshots of the dashboard project showing mobile version"
-          />
+          /> */}
         </div>
       </div>
     </main>

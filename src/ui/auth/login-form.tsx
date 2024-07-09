@@ -64,6 +64,14 @@ export default function LoginForm() {
         <LoginButton />
         <div className="flex justify-center">
           <Link
+            href="/auth/reset-password/submit"
+            className="mt-2 cursor-pointer text-blue-500"
+          >
+            Forgot password? Click here.
+          </Link>
+        </div>
+        <div className="flex justify-center">
+          <Link
             href="/auth/signup"
             className="mt-2 cursor-pointer text-blue-500"
           >
